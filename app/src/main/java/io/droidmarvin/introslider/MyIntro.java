@@ -26,7 +26,13 @@ public class MyIntro extends AppIntro {
         setVibrateIntensity(30);
 
         //Add animation to the intro slider
-        setDepthAnimation();
+        //setDepthAnimation();
+        setFadeAnimation();
+//        setZoomAnimation();
+//        setFlowAnimation();
+//        setSlideOverAnimation();
+//        setDepthAnimation();
+        //setCustomTransformer(yourCustomTransformer);
     }
 
     @Override
