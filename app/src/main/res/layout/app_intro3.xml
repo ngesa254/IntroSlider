@@ -6,7 +6,7 @@
     android:layout_weight="10"
     android:background="#b704c4"
     android:orientation="vertical">
-
+    <!--android:background="#b704c4"-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -34,7 +34,7 @@
             android:paddingLeft="16dp"
             android:tint="#c1e6f5"
             android:paddingRight="16dp"
-            android:src="@drawable/intro3" />
+            android:src="@drawable/intro3i" />
     </LinearLayout>
 
     <TextView

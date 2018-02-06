@@ -9,9 +9,15 @@ android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 tools:context="io.droidmarvin.introslider.MainActivity">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Hello World!\nAdd Introduction about app at first when user open very first time. Describing app features and how to use app and so on." />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!\nAdd Introduction about app at first when user open very first time.
+     Describing app features and how to use app and so on." />
+    </LinearLayout>
+
 
 </RelativeLayout>
